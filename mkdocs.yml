@@ -1,1 +1,32 @@
-site_name: My Docs
+site_name: Nexus Alpha Database
+site_url: https://seu-site.pages.dev
+repo_url: https://github.com/Zeon-o2/nexus-wiki
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: slate
+      primary: purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Modo Escuro
+
+nav:
+  - Início: index.md
+  - Personnel Files: personnel/index.md
+  - Lore: lore/index.md
+  - Clearance Levels: clearance.md
+  - ⌬ Organic Synthesis Division: osd.md
+
+plugins:
+  - search
