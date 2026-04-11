@@ -1,6 +1,6 @@
 site_name: Nexus Alpha Database
-site_url: https://seu-site.pages.dev
-repo_url: https://github.com/Zeon-o2/nexus-wiki
+site_description: Wiki oficial do projeto Nexus Alpha
+site_url: https://nexus-alpha.pages.dev
 
 theme:
   name: material
@@ -12,14 +12,10 @@ theme:
     - search.suggest
     - search.share
     - content.code.copy
-    - content.action.edit
   palette:
     - scheme: slate
       primary: purple
       accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Modo Escuro
 
 nav:
   - Início: index.md
